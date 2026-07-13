@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Paste to Google Drive</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 40px 20px; background-color: #fdfdfd; }
+        h1 { color: #24292e; border-bottom: 2px solid #eaecef; padding-bottom: 10px; }
+        h2 { color: #0366d6; margin-top: 30px; }
+        p, ul { margin-bottom: 15px; }
+        ul { padding-left: 20px; }
+        .highlight-box { background-color: #f6f8fa; border-left: 4px solid #0366d6; padding: 15px; margin: 20px 0; border-radius: 0 4px 4px 0; }
+        footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid #eaecef; font-size: 0.9em; color: #586069; }
+        a { color: #0366d6; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy for "Paste to Google Drive"</h1>
+    <p><em>Last Updated: July 13, 2026</em></p>
+
+    <p>Your privacy is critically important to us. This Privacy Policy documents the specific types of information collected and recorded by the <strong>Paste to Google Drive</strong> Chrome Extension ("the Application") and explains exactly how we interact with your data.</p>
+
+    <h2>1. Google API Services User Data Policy Compliance</h2>
+    <div class="highlight-box">
+        <p>The Application's use and transfer of information received from Google APIs to any other app will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+    </div>
+
+    <h2>2. Information Access and Permissions</h2>
+    <p>To provide its core utility, the Application requests authorization for a single, narrow Google OAuth scope:</p>
+    <ul>
+        <li><code>https://www.googleapis.com/auth/drive.file</code></li>
+    </ul>
+    <p>This permission is strictly utilized to upload new image files (screenshots) that you explicitly action via the paste interface into the specific folder ID you supply. The Application <strong>does not</strong> read, index, scan, modify, or delete any other files residing in your Google Drive cloud account.</p>
+
+    <h2>3. Data Storage and Transfer Mechanisms</h2>
+    <ul>
+        <li><strong>Zero Server-Side Storage:</strong> The Application operates entirely client-side within your local web browser instances. We do not own, maintain, or utilize external databases or servers to store your image files or transmission metadata.</li>
+        <li><strong>Direct Transmission:</strong> When you execute an upload, the binary data flows directly from your local clipboard environment to the official Google Drive upload endpoints via modern HTTPS network protocols. Your data never passes through a intermediary third-party network.</li>
+        <li><strong>Local Cache:</strong> Your designated Google Drive Folder ID is saved natively inside your local browser profile via the secure <code>chrome.storage.local</code> environment for UI configuration convenience.</li>
+    </ul>
+
+    <h2>4. Third-Party Data Disclosures</h2>
+    <p><strong>We do not sell, trade, rent, transfer, or disclose any user information or Google account data to third parties.</strong> All authorization tokens are processed using native Chrome platform APIs (<code>chrome.identity</code>) and remain safely locked inside your local system ecosystem.</p>
+
+    <h2>5. Security Protocols</h2>
+    <p>We employ standard industry security protocols to safeguard your authorization actions. All communication with Google infrastructure is strictly enforced over transport-layer security (HTTPS) encryption routines to neutralize data interception hazards in transit.</p>
+
+    <h2>6. Contact Details</h2>
+    <p>If you have any questions or require clarifications regarding this privacy framework, feel free to open a support case via our repository tracking system.</p>
+
+    <footer>
+        <p><a href="index.html">&larr; Return to Homepage</a></p>
+    </footer>
+
+</body>
+</html>
